@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 // Specify the file name and content
 const fileName = 'date.txt';
 let time = new Date();
