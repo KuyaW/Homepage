@@ -11,7 +11,23 @@ function start(){
     exec('git push -u origin main');
 }
 
-start(); 
+
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+  
+  readline.question('Add description.', name => {
+    console.log(`Added the description.`);
+    readline.close();
+    start(); 
+  });
+
+
+
+
+
+
 // git add .
 // git commit -m "Just updated the time."
 // git push -u origin main
