@@ -5,9 +5,9 @@ function exec(cmd, handler = function(error, stdout, stderr){console.log(stdout)
 }
 // exec('echo %time%');
 
-function start(){
+function start(description){
     exec('git add .');
-    exec('git commit -m "Just updated the time."');
+    exec(`git commit -m "${description}"`);
     exec('git push -u origin main');
 }
 
@@ -17,10 +17,10 @@ const readline = require('readline').createInterface({
     output: process.stdout
   });
   
-  readline.question('Add description.', name => {
+ readline.question('Add description.', name => {
     console.log(`Added the description.`);
     readline.close();
-    start(); 
+    start(name); 
   });
 
 
