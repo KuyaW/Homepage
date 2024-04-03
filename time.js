@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-async function time(){
+ function time(){
     // Specify the file name and content
     const fileName = 'date.txt';
     let time = new Date();
