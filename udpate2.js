@@ -1,8 +1,22 @@
 const update = require('./time');
 const exec = require('./exec');
 
-update.time();
-exec.exec("node automate.js")
+
+
+async function wait(){
+    let waitforMe = await update.time();
+    return waitforMe;
+}
+
+wait().then((resolved)=>{
+    console.log(resolved, 'di ko alam');
+    exec.exec("node automate.js")
+});
+
+
+
+
+
 
 
 
