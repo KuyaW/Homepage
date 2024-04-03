@@ -20,5 +20,7 @@ async function time(){
     });
 }
 
+time()
+
 
 module.exports = {time}
