@@ -43,5 +43,7 @@ let num1 = new Arithmetic(1,1);
 console.log(`This is the result for addition:${num1.addition()}`);
 console.log('Hello')
 
+console.log(`This is a test case: ${num1.division()}`)
+
 
 // function 
