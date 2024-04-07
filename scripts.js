@@ -1,33 +1,41 @@
 let userName = "bryan";
 
-console.log(myFunction(userName));
+
+console.log(userName)
+
+// console.log(myFunction(userName));
 
 function myFunction(username){
     return username;
 }
 
 function sayHelloWorld(){
-    return "Hello World";
+    return "Hello World1";
 }
 
 
 
 class Arithmetic{
     
-    constructor(){
-
+    constructor(a, b){
+        this.a = a;
+        this.b = b;
+        console.log('I was called')
     }
 
     addition(a, b){
         return this.a + this.b;
     }
 
-    subtraction(){
+    subtraction(a,b){
         return this.a - this.b;
     }
 }
 
 
-let 
+let num1 = new Arithmetic(1,1);
+console.log(`This is the result for addition:${num1.addition()}`);
+console.log('Hello')
+
 
 // function 
