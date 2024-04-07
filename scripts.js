@@ -30,6 +30,9 @@ class Arithmetic{
     subtraction(a,b){
         return this.a - this.b;
     }
+    multiplication(a,b){
+        return this.a * this.b;
+    }
 }
 
 
