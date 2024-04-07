@@ -33,6 +33,9 @@ class Arithmetic{
     multiplication(a,b){
         return this.a * this.b;
     }
+    division(){
+        return this.a /  this.b;
+    }
 }
 
 
