@@ -1,0 +1,14 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "My very own personal website. Basically this is just a résumé\r How to update this one.\r  # How to use it. \r  I don't know.",
+  "main": "asyncFunction.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "Bryan",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
