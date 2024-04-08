@@ -16,7 +16,6 @@ function sayHelloWorld(){
 
 
 class Arithmetic{
-    
     constructor(a, b){
         this.a = a;
         this.b = b;
