@@ -19,8 +19,6 @@ const fs = require('fs');
     }
     });
 }
-
 time()
-
 
 module.exports = {time}
